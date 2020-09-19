@@ -23,7 +23,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #D9CBF6;
 }
 
 a:hover {
@@ -171,7 +171,7 @@ Tutorial used found at https://www.raddy.co.uk/blog/netflix-carousel-using-css/
 }
 .wrapper section a {
     position: absolute;
-    color: #fff;
+    color: #D9CBF6;
     text-decoration: none;
     font-size: 6em;
     background: D9CBF6;
