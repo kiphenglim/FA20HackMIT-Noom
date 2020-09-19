@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    min-width: 630px;
+}
+
+.introduction {
+    position: relative;
+    text-align: center;
+}
+
+.introductionText {
+    position: absolute;
+    top: 120px;
+    left: 5%;
+    width: 50%;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: bold;
+}
+
+.main-background {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    z-index: 2;
+    width:10em; 
+    height: auto;
+    margin: 10px;
+}
+
+/* nav bar */
+
+li {
+    font-family: 'Bebas Nueu', Helvetica, Arial;
+    font-size: 1.5 vw;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 1%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #e50914;
+}
+
+buttons {
+    background-color: black;
+    border: none;
+}
+
+.fa {
+    padding: 12px;
+    width: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+
+/* Gmail */
+.fa-google {
+    background: #e50914;
+    color: white;
+  }
+
+.fa-google:hover {
+    background:  rgb(255,215,0);
+}
+
+/*LinkedIn*/
+.fa-linkedin {
+  background: #e50914;
+  color: white;
+}
+
+.fa-linkedin:hover {
+    background: #007bb5;
+}
+
+/*Github*/
+.fa-github {
+    background: #e50914;
+    color: white;
+}
+
+.fa-github:hover {
+    color: black;
+}
+
+
+/* end nav bar*/
+
+h1 {
+    font-size: 2.3vw;
+    font-family: 'Bebas Nueu', Helvetica, Arial, sans-serif;
+    color: white;   
+}
+
+h2 {
+    font-size: 2.3vw;
+    font-family: 'Bebas Nueu', Helvetica, Arial, sans-serif;
+    color: white; 
+}
+
+h3 {
+    font-size: 2.1vw;
+    font-family: 'Bebas Nueu', Helvetica, Arial, sans-serif;
+    color: #e50914;
+}
+
+h4 {
+    font-size: 2vw;
+    font-family: 'Bebas Nueu', Helvetica, Arial, sans-serif;
+    color: #e50914;
+}
+
+p {
+    font-size: 1.9vw;
+    color: white ;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+footer .footer-text {
+    margin-right: 20px;
+}
+
+
+/* 
+CSS the Netflix carousel feature
+Tutorial used found at https://www.raddy.co.uk/blog/netflix-carousel-using-css/
+*/
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.wrapper section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+}
+.wrapper section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+}
+.wrapper section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+.wrapper section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: #000;
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+.wrapper section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.wrapper section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+@media only screen and (max-width: 600px) {
+    a.arrow__btn {
+        display: none;
+   }
+}
+
+/* 
+end of Netflix carousel feature
+*/
