@@ -2,11 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+/* body {
     margin: 0;
     background-color: #D9CBF6;
     min-width: 630px;
-}
+} */
 
 .introduction {
     position: relative;
@@ -40,65 +40,13 @@ a:hover {
     margin-bottom: 25px;
 }
 
-/* nav bar */
 
-li {
-    font-family: 'Bebas Nueu', Helvetica, Arial;
-    font-size: 1.5 vw;
-    color: #4c1f62;
-    text-decoration: none;
-}
-
-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 8px 1%;
-}
-
-.nav_links {
-    list-style: none;
-}
-
-.nav_links li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover {
-    color: #4c1f62;
-}
-
-buttons {
-    background-color: D9CBF6;
-    border: none;
-}
-
-.fa {
-    padding: 12px;
-    width: 19px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 3px;
-}
-
-.fa:hover {
-    opacity: 1;
-}
-
-/* end nav bar*/
-
-h1 {
+/* h1 {
     font-size: 2.3vw;
     font-family: 'Bebas Nueu', Helvetica, Arial, sans-serif;
     color: #4c1f62;   
     text-align: center;
-}
+} */
 
 h2 {
     font-size: 2.3vw;
