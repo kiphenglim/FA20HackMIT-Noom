@@ -18,7 +18,7 @@ body {
     top: 120px;
     left: 5%;
     width: 50%;
-    text-align: left;
+    text-align: center;
 }
 
 a {
@@ -32,22 +32,12 @@ a:hover {
 
 .main-background {
     width: 100%;
-    height: 550px;
+    height: 50vh;
     object-fit: cover;
     position: relative;
     top: 0px;
     left: 0px;
     margin-bottom: 25px;
-}
-
-.logo {
-    position: absolute;
-    top: 20px;
-    left: 5px;
-    z-index: 2;
-    width:10em; 
-    height: auto;
-    margin: 10px;
 }
 
 /* nav bar */
@@ -158,7 +148,7 @@ Tutorial used found at https://www.raddy.co.uk/blog/netflix-carousel-using-css/
     width: 100%;
     position: relative;
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(3, auto);
     margin: 20px 0;
 }
 .wrapper section .item {
