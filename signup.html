@@ -26,43 +26,20 @@
     <script src="mtr-datepicker.min.js"></script>
   </head>
 
-  <body>
+  <body style="background-color: #f3d3d6">
+    <h1 style="padding-top: 5vh; font-weight: 900; text-align:center">Sign up for your <span style="text-shadow: 3px 3px #ffffff">Noom</span> Room!</h1>
+
+    <br>
+
     <form class="pure-form">
         <fieldset>
-            <legend>This is the name that will appear in your watch room.</legend>
+            <legend style="font-family:'Bebas Nueu', Helvetica, Arial, sans-serif">
+                Enter the name you want to appear as in your room, then enter the time at which you will be watching your lecture.
+            </legend>
             <input type="name" placeholder="Name" />
+            <input type="time" placeholder="06:15PM" />
         </fieldset>
     </form>
-
-
-
-    <div id="demo">
-      <script>
-        datepickerDefault = new MtrDatepicker({
-          target: "demo",
-        });
-
-        datepickerDefault.format('D.M.Y h:m A');
-
-        demoDatepicker.onChange('time', function() {
-          /* All Supported Properties:
-            hour
-            minute
-            ampm
-            time
-            day
-            month
-            year
-            date
-            all
-          */
-        });
-
-        demoDatepicker.beforeChange('date', function() {
-          // put you code here
-        });
-      </script>
-    </div>
 
     <button type="button" class="btn btn-info">
         <a style="color: white; text-decoration: none" 
