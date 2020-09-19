@@ -1,21 +1,62 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Noom</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="main.css">
-		<!-- link to font -->
-		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <head>
+    <title>Noom</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <!-- link to font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <!-- link to Bootstrap4 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    </head>
-  
-	<body>
-        
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
+    <!-- link to time picker -->
+    <link rel="stylesheet" href="dist/mtr-datepicker.min.css" />
+    <link rel="stylesheet" href="dist/mtr-datepicker.default-theme.min.css>
 
-        <footer>
-            <p class="footer-text">HackMIT 2020</p>
-        </footer>
-    </body>
+    <!-- Timezone picker -->
+    <script src="mtr-datepicker-timezones.min.js"></script>
+    <script src="mtr-datepicker.min.js"></script>
+  </head>
+
+  <body>
+    <div id="demo">
+      <script>
+        datepickerDefault = new MtrDatepicker({
+          target: "demo",
+        });
+
+        datepickerDefault.format('D.M.Y h:m A');
+
+        demoDatepicker.onChange('time', function() {
+          /* All Supported Properties:
+            hour
+            minute
+            ampm
+            time
+            day
+            month
+            year
+            date
+            all
+          */
+        });
+
+        demoDatepicker.beforeChange('date', function() {
+          // put you code here
+        });
+      </script>
+    </div>
+
+    <footer>
+      <p class="footer-text">HackMIT 2020</p>
+    </footer>
+  </body>
 </html>
