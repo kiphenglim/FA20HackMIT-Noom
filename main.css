@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0;
-    background-color: black;
+    background-color: #D9CBF6;
     min-width: 630px;
 }
 
@@ -55,7 +55,7 @@ a:hover {
 li {
     font-family: 'Bebas Nueu', Helvetica, Arial;
     font-size: 1.5 vw;
-    color: white;
+    color: #4c1f62;
     text-decoration: none;
 }
 
@@ -80,11 +80,11 @@ header {
 }
 
 .nav_links li a:hover {
-    color: #e50914;
+    color: #4c1f62;
 }
 
 buttons {
-    background-color: black;
+    background-color: D9CBF6;
     border: none;
 }
 
@@ -101,66 +101,35 @@ buttons {
     opacity: 1;
 }
 
-/* Gmail */
-.fa-google {
-    background: #e50914;
-    color: white;
-  }
-
-.fa-google:hover {
-    background:  rgb(255,215,0);
-}
-
-/*LinkedIn*/
-.fa-linkedin {
-  background: #e50914;
-  color: white;
-}
-
-.fa-linkedin:hover {
-    background: #007bb5;
-}
-
-/*Github*/
-.fa-github {
-    background: #e50914;
-    color: white;
-}
-
-.fa-github:hover {
-    color: black;
-}
-
-
 /* end nav bar*/
 
 h1 {
     font-size: 2.3vw;
     font-family: 'Bebas Nueu', Helvetica, Arial, sans-serif;
-    color: white;   
+    color: #4c1f62;   
 }
 
 h2 {
     font-size: 2.3vw;
     font-family: 'Bebas Nueu', Helvetica, Arial, sans-serif;
-    color: white; 
+    color: #4c1f62; 
 }
 
 h3 {
     font-size: 2.1vw;
     font-family: 'Bebas Nueu', Helvetica, Arial, sans-serif;
-    color: #e50914;
+    color: #4c1f62;
 }
 
 h4 {
     font-size: 2vw;
     font-family: 'Bebas Nueu', Helvetica, Arial, sans-serif;
-    color: #e50914;
+    color: #4c1f62;
 }
 
 p {
     font-size: 1.9vw;
-    color: white ;
+    color: #4c1f62;
 }
 
 footer {
@@ -205,7 +174,7 @@ Tutorial used found at https://www.raddy.co.uk/blog/netflix-carousel-using-css/
     color: #fff;
     text-decoration: none;
     font-size: 6em;
-    background: #000;
+    background: D9CBF6;
     width: 80px;
     padding: 20px;
     text-align: center;
@@ -215,13 +184,13 @@ Tutorial used found at https://www.raddy.co.uk/blog/netflix-carousel-using-css/
     top: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, #D9CBF6 100%);
 }
 .wrapper section a:nth-of-type(2) {
     top: 0;
     bottom: 0;
     right: 0;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #D9CBF6 100%);
 }
 @media only screen and (max-width: 600px) {
     a.arrow__btn {
