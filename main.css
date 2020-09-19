@@ -32,7 +32,7 @@ a:hover {
 
 .main-background {
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     object-fit: cover;
     position: relative;
     top: 0px;
@@ -164,7 +164,7 @@ Tutorial used found at https://www.raddy.co.uk/blog/netflix-carousel-using-css/
 }
 .wrapper section a {
     position: absolute;
-    color: #D9CBF6;
+    color: white;
     text-decoration: none;
     font-size: 6em;
     background: D9CBF6;
