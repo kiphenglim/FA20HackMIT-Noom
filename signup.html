@@ -17,51 +17,58 @@
       crossorigin="anonymous"
     />
 
-    <!-- link to time picker -->
-    <link rel="stylesheet" href="dist/mtr-datepicker.min.css" />
-    <link rel="stylesheet" href="dist/mtr-datepicker.default-theme.min.css">
-
-    <!-- Timezone picker -->
-    <script src="mtr-datepicker-timezones.min.js"></script>
-    <script src="mtr-datepicker.min.js"></script>
   </head>
 
   <body style="background-color: #F3E4ED">
-    <h1 style="padding-top: 5vh; font-weight: 900; text-align:center">Sign up for your <span style="text-shadow: 3px 3px #ffffff">Noom</span> Room!</h1>
 
-    <br>
 
-    <form class="pure-form">
-        <fieldset>
-            <legend style="font-family:'Bebas Nueu', Helvetica, Arial, sans-serif">
-                Enter the name you want to appear as in your room, then enter the time at which you will be watching your lecture.
-            </legend>
-            <input type="name" placeholder="Name" />
-            <input type="time" placeholder="06:15PM" />
-        </fieldset>
-    </form>
-
-    <br>
-
-    <button type="button" class="btn btn-info" style="background-color:#ee7f8a">
-      <a style="color:white; text-decoration: none" 
-      href="waitingroom.html">
-      Go to Waiting Room</a>
-
-      <br>
-      <br>
-      <br>
+    <div class="container-fluid">
 
       <div class="row justify-content-center">
-        <button type="button" class="btn btn-info" style="background-color:#B1B0B0">
-          <a style="color:white; text-decoration: none" 
-          href="https://www.kiphenglim.com/FA20HackMIT-Noom">
-          Return to Main Page</a>
-      </button>
+        <div class="col-12" style="text-align:center">
+          
+          
+          <h1 style="padding-top: 5vh; font-weight: 900; text-align:center">Sign up for your <span style="text-shadow: 3px 3px #ffffff">Noom</span> Room!</h1>
+
+          <br>
+
+          <form class="pure-form">
+              <fieldset>
+                  <legend style="font-family:'Bebas Nueu', Helvetica, Arial, sans-serif">
+                      Enter the name you want to appear as in your room, then enter the time at which you will be watching your lecture.
+                  </legend>
+                  <input type="name" placeholder="Display Name" />
+                  <input type="time" placeholder="06:15PM" />
+              </fieldset>
+          </form>
+
+          <br>
+
+          <button type="button" class="btn btn-info" style="background-color:#ee7f8a; border: none">
+            <a style="color:white; text-decoration: none" 
+            href="waitingroom">
+            Go to Waiting Room</a>
+          </button>
+
+
+          <div class="row justify-content-center" style="margin-top: 50vh">
+            <button type="button" class="btn btn-info" style="background-color:#B1B0B0; border: none">
+              <a style="color:white; text-decoration: none" 
+              href="https://www.kiphenglim.com/FA20HackMIT-Noom">
+              Return to Main Page</a>
+            </button>
+          </div>
+              
+        </div>
+      </div>
+
     </div>
 
+
+
+
     <footer>
-      <p class="footer-text">HackMIT 2020</p>
+      <p class="footer-text" style="color:#ee7f8a">HackMIT 2020</p>
     </footer>
   </body>
 </html>
