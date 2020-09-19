@@ -1,6 +1,6 @@
 # FA20HackMIT-Noom
 
-Welcome to Noom! 
+Welcome to [Noom](https://www.kiphenglim.com/FA20HackMIT-Noom/)! 
 
 Want to watch lectures with other students but don’t have friends in your class? Looking for study buddies to hold each other accountable? Collaborative remote learning has never been easier!
 
