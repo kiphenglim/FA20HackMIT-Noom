@@ -47,9 +47,15 @@ footer {
 
 footer .footer-text {
     margin-right: 20px;
+    text-shadow: 2px 2px #ffffff;
 }
 
 .card {
   width: 80%;
   margin: auto;
+}
+
+.btn-primary {
+    background-color: #A08FA6 !important;
+    border: none !important;
 }
