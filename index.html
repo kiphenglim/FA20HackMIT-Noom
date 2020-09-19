@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Noom</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="main.css">
-		<!-- link to font -->
-		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <!-- link to Bootstrap4 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<head>
+  <title>Welcome to Noom!</title>
+  <!-- link to main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <!-- link to font -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+  <!-- link to Bootstrap4 -->
+  <link rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+  crossorigin="anonymous">
   </head>
   
-	<body style="background-color: #d9cbf6">
-    <div class="introduction" style="text-align:center; height: fit-content">
-      <img src="images/lilac.png" alt="Lilac" class="main-background">
-			<div class="introductionText">
-				<h1 style="font-weight: 900">Welcome to <span style="text-shadow: 3px 3px #ffffff">Noom</span>!</h1>
-				<h3>Connect with other students and learn together.</h3>
-        <br>
-        <br>
-        <br>
-        <br>
-				<h4>
-          Click a lecture from the carousel below to find a time to watch
-          with others.
-        </h4>
-			</div>
-    </div>
-    
-    <!-- introduction -->
-		<div class="wrapper" style = "height: 100vh;">
-			<section id="section1" style="justify-content: space-evenly;">
-				<a href="#section2" class="arrow__btn">‹</a>
-					<div class="item">
-            <a href="signup">
-              <img src="images/thumbnails/arthis.PNG" alt="art history"
-            style="width:200px; height: 150px;"/>
-            </a>
-					</div>
-					<div class="item">
-            <a href="signup">
-              <img src="images/thumbnails/bio.PNG" alt="biology" style="width:200px; height: 150px;"/>
-            </a>
-					</div>
-					<div class="item">
-            <a href="signup">
-              <img src="images/thumbnails/chem.PNG" alt="chemistry" style="width:200px; height: 150px;"/>
-            </a>
-					</div>
-				<a href="#section2" class="arrow__btn">›</a>
-			</section>
-			<section id="section2" style="justify-content: space-evenly;">
-				<a href="#section1" class="arrow__btn">‹</a>
-				<div class="item">
-          <a href="signup">
-            <img src="images/thumbnails/cs.PNG" alt="cs"
-            style="width:200px; height: 150px;"/>
-           </a>
-					</div>
-					<div class="item">
-            <a href="signup">
-              <img src="images/thumbnails/eng.PNG" alt="eng lit" style="width:200px; height: 150px;"/>
-            </a>
-					</div>
-					<div class="item">
-            <a href="signup">
-              <img src="images/thumbnails/math.PNG" alt="math" style="width:200px; height: 150px"/>
-            </a>
+  <body style="background-color: #D9CBF6">
+
+    <div class="container-fluid">
+
+        <div class="row justify-content-center" style="padding-top: 10vh">
+
+          <h1 style="padding-top: 5vh; font-weight: 900; text-align:center">Welcome to <span style="text-shadow: 3px 3px #ffffff">Noom</span>!</h1>
+
+        </div>
+
+        <div class="row justify-content-center" style="padding-bottom: 15vh">
+          <div class="col-10" style="text-align: center">
+            Connect with other students and learn together.
+            <br>
+            Click a lecture from the carousel below to find a time to watch with others.
           </div>
-				<a href="#section1" class="arrow__btn">›</a>
-			</section>
+        </div>
+        
+        <!-- First row of images -->
+        <div class="row justify-content-center" style="padding-bottom: 10vh">
+            <div class="col-2" style="text-align: center">
+              
+              <img src="images/thumbnails/arthis.PNG" alt="Art History" style="width:200px;height:150px;">
+              
+            </div>
+
+            <div class="col-2" style="text-align: center">
+              <img src="images/thumbnails/bio.PNG" alt="Biology" style="width:200px;height:150px;">
+              
+            </div>
+  
+            <div class="col-2" style="text-align: center">
+              
+              <img src="images/thumbnails/chem.PNG" alt="Chemistry" style="width:200px;height:150px;">
+              
+            </div>
+  
+            <div class="col-2" style="text-align: center">
+              
+              <img src="images/thumbnails/cs.PNG" alt="Computer Science" style="width:200px;height:150px;">
+              
+            </div>
+        </div>
+
+        <!-- Second row of images -->
+        <div class="row justify-content-center">
+          <div class="col-2" style="text-align: center">
+            
+            <img src="images/thumbnails/eng.PNG" alt="English" style="width:200px;height:150px;">
+            
+          </div>
+
+          <div class="col-2" style="text-align: center">
+            <img src="images/thumbnails/math.PNG" alt="Math" style="width:200px;height:150px;">
+            
+          </div>
+
+          <div class="col-2" style="text-align: center">
+            
+            <img src="images/thumbnails/music.PNG" alt="Music" style="width:200px;height:150px;">
+            
+          </div>
+
+          <div class="col-2" style="text-align: center">
+            
+            <img src="images/thumbnails/chinese.PNG" alt="Chinese" style="width:200px;height:150px;">
+            
+          </div>
+      </div>
     </div>
-    
-		<footer>
-      <p class="footer-text">HackMIT 2020</p>
-    </footer>
-	</body>
+  </body>
 </html>
